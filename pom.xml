@@ -8,11 +8,11 @@
 		<version>2.2.5.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.homework3</groupId>
+	<groupId>com.homework4</groupId>
 	<artifactId>Homework4</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Homework4</name>
-	<description>Homework 3 project for Spring Boot</description>
+	<description>Homework 4 project for Spring Boot</description>
 
 	<properties>
 		<java.version>1.8</java.version>

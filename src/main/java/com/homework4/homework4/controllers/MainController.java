@@ -56,8 +56,7 @@ public class MainController
             id = obj.getString("id");
             thevalue = obj.getString("value");
 
-            fullstring = thevalue; //+ " \nThis joke has an ID of " + id; //Decided not to print the Joke ID.
-            System.out.println("This is the full joke and id: " + fullstring); //printing Joke and its ID to the console.
+            fullstring = thevalue;
 
         }
         catch(Exception ex)

@@ -25,10 +25,19 @@
 </head>
 
 
-<body>
+<br>
 <h1>Jokes</h1>
 <h2>Chuck Norris Jokes</h2>
+<br>
+<form method="post" action="/">
+    <input type="submit"  value="Load New Joke">
+</form>
 <textarea rows="5" cols="40">${fullstring}</textarea>
+<br>
+<br>
+<form method="post" action="/save">
+    <input type="submit" value="Save Joke to DB"></form>
+<br>
 <table>
     <c:forEach var = "jokes" items = "${jokesList}">
         <tr>
@@ -40,14 +49,5 @@
         </tr>
     </c:forEach>
 </table>
-
-<br>
-<form method="post" action="/">
-    <input type="submit"  value="Load">
-</form>
-<br>
-<form method="post" action="/save">
-    <input type="submit" value="Save"></form>
 </body>
-
 </html>
